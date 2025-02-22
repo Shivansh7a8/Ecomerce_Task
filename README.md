@@ -71,6 +71,7 @@ mvn spring-boot:run
 ### 4️⃣ Test using Postman/cURL
 curl -X GET http://localhost:8080/api/categories?page=1
 
+#################################################################################################################################################
 ---
 
 ## 📂 Project File Structure
@@ -92,3 +93,4 @@ src/main/java/com/nimap/
  │   ├── ResourceNotFoundException.java
  ├── Application.java
 '''
+---
