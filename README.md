@@ -70,7 +70,9 @@ mvn spring-boot:run
 
 ### 4️⃣ Test using Postman/cURL
 curl -X GET http://localhost:8080/api/categories?page=1
---------
+
+---
+
 ## 📂 Project File Structure
 ```bash
 src/main/java/com/nimap/
