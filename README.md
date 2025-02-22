@@ -16,29 +16,6 @@ This project is a **Spring Boot REST API** for managing **categories and product
 - Uses **Spring Boot, JPA, Hibernate, and MySQL/PostgreSQL**
 
 ---
-
-## 📂 Project File Structure
-```bash
-src/main/java/com/nimap/
- ├── controller/
- │   ├── CategoryController.java
- │   ├── ProductController.java
- ├── entity/
- │   ├── Category.java
- │   ├── Product.java
- ├── repository/
- │   ├── CategoryRepository.java
- │   ├── ProductRepository.java
- ├── service/
- │   ├── CategoryService.java
- │   ├── ProductService.java
- ├── exception/
- │   ├── ResourceNotFoundException.java
- ├── Application.java
-'''
-
----
-
 ## 🛠 Technologies Used
 
 - **Spring Boot** (REST APIs)
@@ -93,3 +70,23 @@ mvn spring-boot:run
 
 ### 4️⃣ Test using Postman/cURL
 curl -X GET http://localhost:8080/api/categories?page=1
+--------
+## 📂 Project File Structure
+```bash
+src/main/java/com/nimap/
+ ├── controller/
+ │   ├── CategoryController.java
+ │   ├── ProductController.java
+ ├── entity/
+ │   ├── Category.java
+ │   ├── Product.java
+ ├── repository/
+ │   ├── CategoryRepository.java
+ │   ├── ProductRepository.java
+ ├── service/
+ │   ├── CategoryService.java
+ │   ├── ProductService.java
+ ├── exception/
+ │   ├── ResourceNotFoundException.java
+ ├── Application.java
+'''
